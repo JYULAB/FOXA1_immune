@@ -13,11 +13,6 @@ The scripts are organized by technology or analysis type. For workflows requirin
 - [**spike_in_downsampling.sh**](ChIP-seq/spike_in_downsampling.sh): Down sample with Spike-in
 - [**venn.R**](ChIP-seq/venn.R): Draw venn diagram, Fig 3
     
-### scRNA-seq
-
-- [**placeholder.R**](Multiome/placeholder.R): Integration with clinical patients and pseudotime analysis, Fig 3D, E
-
-
 ### Spatial_Transcriptomics
 
 #### CosMx
@@ -26,3 +21,7 @@ The scripts are organized by technology or analysis type. For workflows requirin
 
 #### TESLA
 - [**TESLA_analyses,py**](/Spatial_Transcriptomics/TESLA_analyses/TESLA_analyses,py): Tumor Edge Structure and Lymphocyte multi-level Annotation Analysis, Fig 5
+
+### scRNA-seq
+
+- [**placeholder.R**](Multiome/placeholder.R): Integration with clinical patients and pseudotime analysis, Fig 3D, E
