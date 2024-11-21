@@ -26,7 +26,3 @@ The scripts are organized by technology or analysis type. For workflows requirin
 
 #### TESLA
 - [**TESLA_analyses,py**](/Spatial_Transcriptomics/TESLA_analyses/TESLA_analyses,py): Tumor Edge Structure and Lymphocyte multi-level Annotation Analysis, Fig 5
-
-### miscellaneous_code
-
-- [**test.R**](miscellaneous_code/test.R): creating TF volcano plots, Fig xx
