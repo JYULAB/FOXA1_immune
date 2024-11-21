@@ -1,4 +1,4 @@
-# Code for NKX2-1 Paper
+# Code for FOXA1 Paper
 Citation:
 
 This repository includes the main pieces of code used to support the conclusions in the paper. The following code were used in a SLURM High Performance Computing environment, using a combination of bash scripting, R (4.0.3) and python >=3.6. Detailed versions of softwares used are listed in Methods section of the paper.
