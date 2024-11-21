@@ -16,14 +16,14 @@ The scripts are organized by technology or analysis type. For workflows requirin
 ### Spatial_Transcriptomics
 
 #### CosMx
-- [**FXOA1_stain_score_quantification.py**](/Spatial_Transcriptomics/CosMx_analyses/FXOA1_stain_score_quantification.py): Quantify FOXA1 stain score, Fig 7
-- [**Tumor_infiltration_score.py**](/Spatial_Transcriptomics/CosMx_analyses/Tumor_infiltration_score.py): Calculate tumor infiltration score, Fig 7
+- [**FXOA1_stain_score_quantification.py**](Spatial_Transcriptomics/CosMx_analyses/FXOA1_stain_score_quantification.py): Quantify FOXA1 stain score, Fig 7
+- [**Tumor_infiltration_score.py**](Spatial_Transcriptomics/CosMx_analyses/Tumor_infiltration_score.py): Calculate tumor infiltration score, Fig 7
 
 #### TESLA
 - [**TESLA_analyses,py**](/Spatial_Transcriptomics/TESLA_analyses/TESLA_analyses,py): Tumor Edge Structure and Lymphocyte multi-level Annotation Analysis, Fig 5
 
 ### scRNA-seq
 
-- [**seq_analysis_whole_prostate.R**](/scRNA-seq/seq_analysis_whole_prostate.R): Analyses of the 10x scRNA-seq data with seurat, Fig 2, 3, 6
-- [**Cellchat_analysis.R**](/scRNA-seq/Cellchat_analysis.R): Cellchat analysis of 10x whole tumor scRNA-seq data with CellChat, Fig 6
-- [**pipseq_analysis_CD45.R**](/scRNA-seq/pipseq_analysis_CD45.R): Analyses of the CD45+ sorted PIP-Seq data, Fig 4 
+- [**seq_analysis_whole_prostate.R**](scRNA-seq/seq_analysis_whole_prostate.R): Analyses of the 10x scRNA-seq data with seurat, Fig 2, 3, 6
+- [**Cellchat_analysis.R**](scRNA-seq/Cellchat_analysis.R): Cellchat analysis of 10x whole tumor scRNA-seq data with CellChat, Fig 6
+- [**pipseq_analysis_CD45.R**](scRNA-seq/pipseq_analysis_CD45.R): Analyses of the CD45+ sorted PIP-Seq data, Fig 4 
