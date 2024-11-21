@@ -26,4 +26,4 @@ The scripts are organized by technology or analysis type. For workflows requirin
 
 - [**10x_scRNAseq_analysis_whole_prostate.R**](scRNA-seq/10x_scRNAseq_analysis_whole_prostate.R): Analyses of the 10x scRNA-seq data with seurat, Fig 2, 3, 6
 - [**CellChat_analysis.R**](scRNA-seq/CellChat_analysis.R): Analysis of 10x whole tumor scRNA-seq data with CellChat, Fig 6
-- [**Pipseq_analysis_CD45.R**](scRNA-seq/Pipseq_analysis_CD45.R): Analyses of the CD45+ sorted PIP-Seq data, Fig 4 
+- [**pipseq_analysis_CD45.R**](scRNA-seq/pipseq_analysis_CD45.R): Analyses of the CD45+ sorted PIP-Seq data, Fig 4 
