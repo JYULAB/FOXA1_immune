@@ -24,4 +24,6 @@ The scripts are organized by technology or analysis type. For workflows requirin
 
 ### scRNA-seq
 
-- [**placeholder.R**](Multiome/placeholder.R): Integration with clinical patients and pseudotime analysis, Fig 3D, E
+- [**seq_analysis_whole_prostate.R**](scRNA-seq/seq_analysis_whole_prostate.R): Analyses of the 10x scRNA-seq data with seurat, Fig 2, 3, 6
+- [**Cellchat_analysis.R**](scRNA-seq/Cellchat_analysis.R): Cellchat analysis of 10x whole tumor scRNA-seq data with CellChat, Fig 6
+- [**pipseq_analysis_CD45.R**](scRNA-seq/pipseq_analysis_CD45.R): Analyses of the CD45+ sorted PIP-Seq data, Fig 4 
