@@ -7,11 +7,11 @@ The scripts are organized by technology/analysis type. If any scripts are to be 
  
 ### ChIP-seq
 
-- [**command.sh**](ChIP-seq/heatmap.sh): Creating heatmaps, Fig 3
-- [**command.sh**](ChIP-seq/mapping.sh): Map raw reads
-- [**command.sh**](ChIP-seq/peakcalling.sh): Call peaks
-- [**command.sh**](ChIP-seq/spike_in_downsampling.sh): Down sample with Spike-in
-- [**command.sh**](ChIP-seq/venn.R): Draw venn diagram, Fig 3
+- [**heatmap.sh**](ChIP-seq/heatmap.sh): Creating heatmaps, Fig 3
+- [**mapping.sh**](ChIP-seq/mapping.sh): Map raw reads
+- [**peakcalling.sh**](ChIP-seq/peakcalling.sh): Call peaks
+- [**spike_in_downsampling.sh**](ChIP-seq/spike_in_downsampling.sh): Down sample with Spike-in
+- [**venn.R**](ChIP-seq/venn.R): Draw venn diagram, Fig 3
     
 ### scRNA-seq
 
