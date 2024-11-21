@@ -7,8 +7,12 @@ The scripts are organized by technology/analysis type. If any scripts are to be 
  
 ### ChIP-seq
 
-- [**command.sh**](ChIP-seq/command.sh): creating heatmaps, Fig 4D, 4E, 4H, 5E, 7D, S5E, S7E, S9A, S9B (same tool is used for ATAC-seq heatmaps).
-
+- [**command.sh**](ChIP-seq/heatmap.sh): Creating heatmaps, Fig 3
+- [**command.sh**](ChIP-seq/mapping.sh): Map raw reads
+- [**command.sh**](ChIP-seq/peakcalling.sh): Call peaks
+- [**command.sh**](ChIP-seq/spike_in_downsampling.sh): Down sample with Spike-in
+- [**command.sh**](ChIP-seq/venn.R): Draw venn diagram, Fig 3
+    
 ### scRNA-seq
 
 - [**clinical_patients_intergration.R**](Multiome/clinical_patients_intergration.R): Integration with clinical patients and pseudotime analysis, Fig 3D, E
