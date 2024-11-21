@@ -15,7 +15,7 @@ The scripts are organized by technology or analysis type. For workflows requirin
     
 ### scRNA-seq
 
-- [**clinical_patients_intergration.R**](Multiome/clinical_patients_intergration.R): Integration with clinical patients and pseudotime analysis, Fig 3D, E
+- [**placeholder.R**](Multiome/placeholder.R): Integration with clinical patients and pseudotime analysis, Fig 3D, E
 
 
 ### Spatial_Transcriptomics
@@ -29,4 +29,4 @@ The scripts are organized by technology or analysis type. For workflows requirin
 
 ### miscellaneous_code
 
-- [**TF_volcano.R**](miscellaneous_code/TF_volcano.R): creating TF volcano plots, Fig 5A
+- [**test.R**](miscellaneous_code/test.R): creating TF volcano plots, Fig xx
