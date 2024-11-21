@@ -22,26 +22,6 @@ The scripts are organized by technology/analysis type. If any scripts are to be 
 - [**endogenous_integration_atac.R**](Multiome_additional/endogenous_integration_atac.R): Integration of original D0 and D14 with D21 additional sequencing, Fig S4E, F
 - [**meta_highlight_manual.R**](Multiome_additional/meta_highlight_manual.R), [**Meta_Highlight_Plot_manual.R**](Multiome_additional/Meta_Highlight_Plot_manual.R): manually tweaking plotting functions to ensure rare clones are shown on top in the UMAP, Fig S4B, E
 
-#### epiAneufinder
-- [**01_epiAneufinder_fragment_run.R**](Multiome_additional/01_epiAneufinder_fragment_run.R): Running epiAneufinder on individual samples
-- [**02_endogenous_epi_bins_loose.R**](Multiome_additional/02_endogenous_epi_bins_loose.R): Filtering cells and combining individual CNA 
-- [**03_split_subclones_color.R**](Multiome_additional/03_split_subclones_color.R): Finding clones in the combined matrix and plotting heatmap, Fig S4D
-- [**04_epi_loose_atac.R**](Multiome_additional/04_epi_loose_atac.R): Plotting clones on UMAP and violin plots, Fig SE, F
-
-##### nepc/crpc
-- [**NEPC_loop.bedpe**](Hi-C/pdx_loops/pdx_specific_loops/nepc/NEPC_loop.bedpe): Specific loops file Fig 1A, 1B
-- [**specific_loop.R**](Hi-C/pdx_loops/pdx_specific_loops/nepc/): Finding specific loops and finding genes linked to specific loop anchors and performing GO, Fig 1C, D, E, F
-- [**script_apa**](Hi-C/pdx_loops/pdx_specific_loops/nepc/): Plotting APA plots Fig 1A, 1B
-- [**script_homer_nepc.sh**](Hi-C/pdx_loops/pdx_specific_loops/nepc/script_homer_nepc.sh): Script for finding NEPC specific loops: loops present in 2 or more samples
-- [**specific_loop_cre_overlap.R**](Hi-C/pdx_loops/pdx_specific_loops/nepc/): Finding specific loops with cre overlap, Fig 1I,J
-- [**script_motif.sh**](Hi-C/pdx_loops/pdx_specific_loops/nepc/script_motif.sh): Finding motifs of CREs located at specific loop anchor. For Fig 1I, J
-
-#### lncap_loops
-- [**script_mustache.sh**](Hi-C/lncap_loops/script_mustache.sh): Script to call pairwise diffMustache between D0 and D28, Fig 2D
-- [**w0_vs_w4.diffloop1.bedpe**](Hi-C/lncap_loops/w0_vs_w4.diffloop1.bedpe): Luminal and NE loops, Fig 2D 
-- [**script_apa.sh**](Hi-C/lncap_loops/script_apa.sh): Plotting APA plots Fig 2D
-- [**Luminal_NE_loops.R**](Hi-C/lncap_loops/Luminal_NE_loops.R): Genes linked to Luminal and NE loops, S2H
-
 ### ChIP-seq
 - [**command.sh**](ChIP-seq/command.sh): creating heatmaps, Fig 4D, 4E, 4H, 5E, 7D, S5E, S7E, S9A, S9B (same tool is used for ATAC-seq heatmaps).
 
