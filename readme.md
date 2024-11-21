@@ -1,9 +1,9 @@
 # Code for FOXA1 Paper
 Citation:
 
-This repository includes the main pieces of code used to support the conclusions in the paper. The following code were used in a SLURM High Performance Computing environment, using a combination of bash scripting, R (4.0.3) and python >=3.6. Detailed versions of softwares used are listed in Methods section of the paper.
+The analyses were conducted in a High-Performance Computing (HPC) environment using a combination of Bash scripting, R (v4.0.3), and Python (v3.6 or later). Detailed software versions are described in the Methods section of the paper.
 
-The scripts are organized by technology/analysis type. If any scripts are to be run in order, prefix numbers are provided in the script name. Otherwise, each script is mostly standalone. Some files are provided here, such as the final cells passing filtering that were used in Multiome analysis. Expected output of each script are the indicated figures from the paper.
+The scripts are organized by technology or analysis type. For workflows requiring sequential execution, scripts are prefixed with numbers indicating the order. Otherwise, most scripts are standalone. Each script's expected output corresponds to specific figures in the paper.
  
 ### ChIP-seq
 
