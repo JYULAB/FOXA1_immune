@@ -25,7 +25,7 @@ The scripts are organized by technology/analysis type. If any scripts are to be 
 - [**Tumor_infiltration_score.py**](/Spatial_Transcriptomics/CosMx_analyses/Tumor_infiltration_score.py): Calculate tumor infiltration score
 
 #### TESLA
-- [**TESLA_analyses,py**](/Spatial_Transcriptomics/TESLA_analyses/TESLA_analyses.py): Tumor Edge Structure and Lymphocyte multi-level Annotation Analysis
+- [**TESLA_analyses,py**](/Spatial_Transcriptomics/TESLA_analyses/TESLA_analyses,py): Tumor Edge Structure and Lymphocyte multi-level Annotation Analysis
 
 ### miscellaneous_code
 
