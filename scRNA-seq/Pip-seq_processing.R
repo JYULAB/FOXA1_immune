@@ -140,6 +140,20 @@ Cell_Highlight_Plot(t_cell_integrated, cells_highlight = list(Nkg7_neg = cluster
 levels(t_cell_integrated$manual_clusters) <- c(levels(t_cell_integrated$manual_clusters), "14") # assigning new cluster 14
 t_cell_integrated$manual_clusters[names(t_cell_integrated$manual_clusters) %in% cluster9_nkg7_neg] <- "14" 
 
+# t cell type granular ----
+t_cell_types_granular <- c("0" = "Naive/Memory T helper", "1" = "Th17", "2" = "CTL1", 
+                           "3" = "CTL2", "4" = "Th17", 
+                           "5" = "CTL3", "6" = "Tregs", 
+                           "7" = "Cycling CD8","8"= "Tregs",
+                           "9" = "NK", "10" = "Naive/Memory T helper",
+                           "11" = "CTL1", "12" = "CTL1", "13" = "NK", "14" = "CTL2")
+Idents(t_cell_integrated) <- "manual_clusters"
+t_cell_integrated <- RenameIdents(t_cell_integrated, t_cell_types_granular)
+t_cell_integrated$t_cell_types_granular <- Idents(t_cell_integrated)
+DimPlot_scCustom(t_cell_integrated, group.by = "t_cell_types_granular", colors_use = polychrome_pal, pt.size = 1)
+Idents(t_cell_integrated) <- "t_cell_types_granular"
+
+
 # t cell type coarse ----
 t_cell_types_coarse <- c("0" = "T helper", "1" = "T helper", "2" = "CD8 T Cell", 
                          "3" = "CD8 T Cell", "4" = "T helper", 
