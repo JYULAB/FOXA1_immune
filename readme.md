@@ -24,8 +24,8 @@ The scripts are organized by technology or analysis type. For workflows requirin
 
 ### scRNA-seq
 
-- [**scRNA-seq_processing.R**](scRNA-seq/scRNA-seq_processing.R): process scRNA-Seq samples, Fig 2, 3, 6
-- [**scRNA-seq_integration.R**](scRNA-seq/scRNA-seq_integration.R): integrate and annotate scRNA-Seq samples, Fig 2, 3, 6
+- [**scRNA-seq_processing.R**](scRNA-seq/scRNA-seq_processing.R): Process scRNA-Seq samples, Fig 2, 3, 6
+- [**scRNA-seq_integration.R**](scRNA-seq/scRNA-seq_integration.R): Integrate and annotate scRNA-Seq samples, Fig 2, 3, 6
 - [**10x_scRNAseq_analysis_whole_prostate.R**](scRNA-seq/10x_scRNAseq_analysis_whole_prostate.R): Analyses of the 10x scRNA-seq data with seurat, Fig 2, 3, 6
 - [**trajectory_analysis.R**](scRNA-seq/trajectory_analysis.R): Trajectory analysis of epithelial populations Fig 2
 - [**CellChat_analysis.R**](scRNA-seq/CellChat_analysis.R): Analysis of 10x whole tumor scRNA-seq data with CellChat, Fig 6
