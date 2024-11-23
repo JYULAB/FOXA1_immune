@@ -20,7 +20,7 @@ The scripts are organized by technology or analysis type. For workflows requirin
 - [**Tumor_infiltration_score.py**](Spatial_Transcriptomics/CosMx_analyses/Tumor_infiltration_score.py): Calculate tumor infiltration score, Fig 7
 
 #### Visium
-- [**TESLA_analyses,py**](/Spatial_Transcriptomics/Visium_analyses/TESLA_analyses,py): Tumor Edge Structure and Lymphocyte multi-level Annotation Analysis, Fig 5
+- [**TESLA_analyses,py**](/Spatial_Transcriptomics/Visium_analyses/TESLA_analyses.py): Tumor Edge Structure and Lymphocyte multi-level Annotation Analysis, Fig 5
 
 ### scRNA-seq
 
