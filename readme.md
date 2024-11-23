@@ -24,9 +24,11 @@ The scripts are organized by technology or analysis type. For workflows requirin
 
 ### scRNA-seq
 
-- [**scRNA-seq_processing.R**](scRNA-seq/scRNA-seq_processing.R), [**scRNA-seq_integration.R**](scRNA-seq/scRNA-seq_integration.R), processing, integrating and annotation of scRNA-Seq samples, Fig 2, 3, 6
+- [**scRNA-seq_processing.R**](scRNA-seq/scRNA-seq_processing.R): process scRNA-Seq samples, Fig 2, 3, 6
+- [**scRNA-seq_integration.R**](scRNA-seq/scRNA-seq_integration.R): integrate and annotate scRNA-Seq samples, Fig 2, 3, 6
 - [**10x_scRNAseq_analysis_whole_prostate.R**](scRNA-seq/10x_scRNAseq_analysis_whole_prostate.R): Analyses of the 10x scRNA-seq data with seurat, Fig 2, 3, 6
 - [**trajectory_analysis.R**](scRNA-seq/trajectory_analysis.R): Trajectory analysis of epithelial populations Fig 2
 - [**CellChat_analysis.R**](scRNA-seq/CellChat_analysis.R): Analysis of 10x whole tumor scRNA-seq data with CellChat, Fig 6
 - [**Pip-seq_processing_processing.R**](scRNA-seq/Pip-seq_processing_processing.R): Processing, integrating and annotation of PIP-Seq data, Fig 4
-- [**pipseq_analysis_CD45.R**](scRNA-seq/pipseq_analysis_CD45.R): Analyses of the CD45+ sorted PIP-Seq data, Fig 4 
+- [**pipseq_analysis_CD45.R**](scRNA-seq/pipseq_analysis_CD45.R): Analyses of the CD45+ sorted PIP-Seq data, Fig 4
+- [**scRNAseq_analysis_human.R**](scRNA-seq/scRNAseq_analysis_human.R): Analyse of published human PCa GSE181294 scRNA-seq data, Fig 7 
