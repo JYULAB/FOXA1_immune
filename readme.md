@@ -19,8 +19,8 @@ The scripts are organized by technology or analysis type. For workflows requirin
 - [**FXOA1_stain_score_quantification.py**](Spatial_Transcriptomics/CosMx_analyses/FXOA1_stain_score_quantification.py): Quantify FOXA1 stain score, Fig 7
 - [**Tumor_infiltration_score.py**](Spatial_Transcriptomics/CosMx_analyses/Tumor_infiltration_score.py): Calculate tumor infiltration score, Fig 7
 
-#### TESLA
-- [**TESLA_analyses,py**](/Spatial_Transcriptomics/TESLA_analyses/TESLA_analyses,py): Tumor Edge Structure and Lymphocyte multi-level Annotation Analysis, Fig 5
+#### Visium
+- [**TESLA_analyses,py**](/Spatial_Transcriptomics/Visium_analyses/TESLA_analyses,py): Tumor Edge Structure and Lymphocyte multi-level Annotation Analysis, Fig 5
 
 ### scRNA-seq
 
